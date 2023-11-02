@@ -153,7 +153,7 @@
 
   <section style="background-image: radial-gradient(50% 50% at 50% 50%, #300871 0%, #000000 100%);">
     <div class="container">
-      <div class="pt-60 pb-14 py-lg-160">
+      <div class="pt-60 pb-14 pt-lg-160 pb-lg-9">
         <h2 class="fw-bold lh-base fs-6 fs-lg-7 text-spacing-40 text-spacing-lg-48 mb-8 mb-lg-9">最新消息</h2>
         <div class="row border-top border-white">
           <div class="col-12 position-relative border-bottom border-white">
@@ -172,7 +172,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 position-relative border-lg-end border-bottom border-white ">
+          <div class="col-lg-6 position-relative border-end-0 border-end-lg border-bottom border-white ">
             <div class="py-8 py-lg-9 px-4">
               <div class="mb-3">
                 <time class="icon-time ps-9 mb-2 fw-bold text-spacing-16">2023.06.30</time>
@@ -192,11 +192,115 @@
               <a href="javascript:;" class="d-inline-block icon-line-end-arrow icon-line-end-arrow-sm stretched-link">Go</a>
             </div>
           </div>
+          <div class="col-12 text-center mt-9 mt-lg-14">
+            <a href="javascript:;" class="d-inline-block"><img src="../assets/images/circle_more.png" alt="more" class="img-fluid" style="width: 132px;"></a>
+            <p class="fw-bold text-end d-none d-lg-block mt-15">為環保盡一份心力，我們的包裝盒和紙質說明書都使用環保材料</p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
+  <section class="news-swiper" style="background-image: radial-gradient(50% 50% at 50% 50%, #000000 0%, #28085C 100%);">
+    <div class="container">
+      <div class="pt-12 pt-lg-160 pb-14 pb-lg-9">
+        <div class="row align-items-lg-center">
+          <div class="col-lg-5">
+            <h2 class="fw-bold lh-base fs-6 fs-lg-7 text-spacing-40 text-spacing-lg-48 d-inline-block mb-4">最新消息</h2>
+            <div class="d-block d-lg-none fw-bold newsCount mb-6">01 - 04</div>
+          </div>
+          <div class="col">
+            <p class="fw-bold">展示其他使用者對於產品的真實體驗與評價，讓您更加放心選擇。</p>
+          </div>
+        </div>
+        <div class="mb-4 mb-lg-6">
+          <div class="d-none d-lg-block fw-bold newsCount">01 - 04</div>
+          <span class="material-symbols-outlined d-inline-block fs-10 text-white mt-6 mt-lg-9 lh-1">emergency</span>
+        </div>
+        <!-- swiper new -->
+        <div class="swiper d-none d-lg-block" id="news-swiper">
+          <ul class="swiper-wrapper list-unstyled row mb-0">
+            <li class="swiper-slide col-4">
+              <div class="bg-primary-400">1</div>
+            </li>
+            <li class="swiper-slide col-4">
+              <div class="bg-white">2</div>
+            </li>
+            <li class="swiper-slide col-4">
+              <div class="bg-primary-400">3</div>
+            </li>
+            <li class="swiper-slide col-4">
+              <div class="bg-white">4</div>
+            </li>
+          </ul>
+          <div class="swiper-scrollbar"></div>
+        </div>
+
+        <ul class="row row-cols-1 g-6 d-md-none mb-0 list-unstyled">
+          <li class="col">
+            <div class="card bg-primary-400" style="height: 351px;">
+              <div class="card-body p-6 d-flex flex-column">
+                <div>
+                  <p class="card-title fw-bold mb-8 d-flex align-items-center">Zona<span class="mx-2 d-inline-block h-2 w-2 rounded-circle bg-white"></span>Taipei</p>
+                  <p class="fw-bold">ALPHABOX+ 真的很夯！每次把它打開，感覺就像是身臨其境一樣。它陪我度過了很多寂寞的時光，讓我在家裡也能享受到優質的休閒時光。</p>
+                </div>
+                <div class="mt-auto d-flex align-items-center">
+                  <span class="d-inline-block h-3 w-3 rounded-circle bg-white me-4"></span>
+                  <span class="d-inline-block h-3 w-3 rounded-circle bg-white me-4"></span>
+                  <span class="d-inline-block fw-bold">ALPHABOX+ Dianne</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="col">
+            <div class="card bg-white text-black" style="height: 351px;">
+              <div class="card-body p-6 d-flex flex-column">
+                <div>
+                  <p class="card-title fw-bold mb-8 d-flex align-items-center">Lin<span class="mx-2 d-inline-block h-2 w-2 rounded-circle bg-black"></span>Chiayi</p>
+                  <p class="fw-bold">非常推薦！它的畫面清晰度超高，真的讓我驚艷不已。而且它還可以和我互動，感覺就像是有個真實的朋友在身邊。</p>
+                </div>
+                <div class="mt-auto d-flex align-items-center">
+                  <span class="d-inline-block h-3 w-3 rounded-circle bg-black me-4"></span>
+                  <span class="d-inline-block h-3 w-3 rounded-circle bg-black me-4"></span>
+                  <span class="d-inline-block fw-bold">ALPHABOX+ Felix</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="col">
+            <div class="card bg-primary-400" style="height: 351px;">
+              <div class="card-body p-6 d-flex flex-column">
+                <div>
+                  <p class="card-title fw-bold mb-8 d-flex align-items-center">云<span class="mx-2 d-inline-block h-2 w-2 rounded-circle bg-white"></span>Taipei</p>
+                  <p class="fw-bold">我之前一直在找能陪伴我度過空虛時光的好夥伴，直到遇見 ALPHABOX+。它不僅僅是一個機器人，更像是一個真正的朋友，陪著我分享喜怒哀樂。真的很讚！</p>
+                </div>
+                <div class="mt-auto d-flex align-items-center">
+                  <span class="d-inline-block h-3 w-3 rounded-circle bg-white me-4"></span>
+                  <span class="d-inline-block h-3 w-3 rounded-circle bg-white me-4"></span>
+                  <span class="d-inline-block fw-bold">ALPHABOX+ Dianne</span>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="col">
+            <div class="card bg-white text-black" style="height: 351px;">
+              <div class="card-body p-6 d-flex flex-column">
+                <div>
+                  <p class="card-title fw-bold mb-8 d-flex align-items-center">Zichi<span class="mx-2 d-inline-block h-2 w-2 rounded-circle bg-black"></span>Kaohsiung</p>
+                  <p class="fw-bold">讓我在忙碌的工作之餘，也能找到休閒的樂趣。它的互動功能非常有趣，讓我在短短的時間內就愛上了它。給它一百分！</p>
+                </div>
+                <div class="mt-auto d-flex align-items-center">
+                  <span class="d-inline-block h-3 w-3 rounded-circle bg-black me-4"></span>
+                  <span class="d-inline-block h-3 w-3 rounded-circle bg-black me-4"></span>
+                  <span class="d-inline-block fw-bold">ALPHABOX+ Vito</span>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
 
 
