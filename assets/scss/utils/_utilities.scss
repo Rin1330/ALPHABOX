@@ -213,7 +213,8 @@ $utilities: map-merge(
       values: (
         1: 0.25rem,
         2: 0.5rem,
-        3: 1rem,
+        3: 0.75rem,
+        4: 1rem,
         25: 25%,
         50: 50%,
         75: 75%,
@@ -226,7 +227,6 @@ $utilities: map-merge(
       class: mw,
       values: (
         100: 100%,
-        416: 416px
       )
     ),
     "viewport-width": (
@@ -242,10 +242,12 @@ $utilities: map-merge(
     "height": (
       property: height,
       class: h,
+      responsive: true,
       values: (
         1: 0.25rem,
         2: 0.5rem,
-        3: 1rem,
+        3: 0.75rem,
+        4: 1rem,
         25: 25%,
         50: 50%,
         75: 75%,

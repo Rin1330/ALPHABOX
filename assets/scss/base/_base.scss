@@ -205,5 +205,35 @@ a {
 }
 
 .news-swiper {
-  
+  .swiper-wrapper {
+    height: 416px;
+  }
+  .swiper-scrollbar {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .swiper-scrollbar-drag {
+    background: #ffffff !important;
+  }
+}
+
+
+.bg-text {
+  position: relative;
+  &:before {
+    position: absolute;
+    content: 'ALPHABOX+';
+    display: block;
+    font-size: 128px;
+    font-family: "Shrikhand";
+    font-style: italic;
+    line-height: 1.5;
+    width: 150%;
+    left: 50%;
+    bottom: -45%;
+    transform: translateX(-50%);
+    color: rgba($color: #ffffff, $alpha: 0.04);
+    @include media-breakpoint-up(lg)  {
+      font-size: 400px;
+    }
+  }
 }

@@ -14,15 +14,14 @@ window.addEventListener('DOMContentLoaded', () => {
     },
   });
 
-  const newSwiper = new Swiper('#news-swiper', {
-    spaceBetween: 24,
-    mousewheel: true,
+  const swiperNews = new Swiper('#swiperNews', {
+    spaceBetween : 24,
+    slidesPerView: 3,
     scrollbar: {
-      el: ".swiper-scrollbar",
-      // hide: false,
-      draggable: true
+      el: ".news-swiper .swiper-scrollbar",
+      draggable: true,
     },
-    slidePerView: "auto",
+    mousewheel: true
   })
 
 })
