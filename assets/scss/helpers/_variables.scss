@@ -671,6 +671,9 @@ $font-sizes: (
   10: $font-size-base * 5,       // 80
   11: $font-size-base * 5.5,     // 88
   12: $font-size-base * 6,       // 96
+  13: $font-size-base * 7,       // 112
+  14: $font-size-base * 8,       // 128
+  400: 400px,
 ) !default;
 // scss-docs-end font-sizes
 
@@ -1093,13 +1096,13 @@ $form-file-button-hover-bg:       var(--#{$prefix}secondary-bg) !default;
 // scss-docs-end form-file-variables
 
 // scss-docs-start form-floating-variables
-$form-floating-height:                  add(3.5rem, $input-height-border) !default;
-$form-floating-line-height:             1.25 !default;
-$form-floating-padding-x:               $input-padding-x !default;
-$form-floating-padding-y:               1rem !default;
+$form-floating-height:                  add(2.75rem, $input-height-border) !default;
+$form-floating-line-height:             1.5;//1.25 !default;
+$form-floating-padding-x:               1rem;//$input-padding-x !default;
+$form-floating-padding-y:               0.5rem; //1rem !default;
 $form-floating-input-padding-t:         1.625rem !default;
 $form-floating-input-padding-b:         .625rem !default;
-$form-floating-label-height:            1.5em !default;
+$form-floating-label-height:            1em; //1.5em !default;
 $form-floating-label-opacity:           .65 !default;
 $form-floating-label-transform:         scale(.85) translateY(-.5rem) translateX(.15rem) !default;
 $form-floating-label-disabled-color:    $gray-600 !default;

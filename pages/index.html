@@ -368,14 +368,84 @@
 
   <section class="bg-primary-600">
     <div class="container">
-      <div class="row py-60 py-lg-18">
-        <div class="col-lg-5">
+      <div class="row pt-60 pb-14 py-lg-18">
+        <div class="col-lg-5 mb-6">
           <h2 class="fw-bold lh-base fs-6 fs-lg-7 text-spacing-40 text-spacing-lg-48 d-inline-block mb-5">聯絡我們</h2>
-          <div class="d-flex align-items-center"><span class="d-block w-2 w-lg-3 h-2 h-lg-3 rounded-circle bg-white me-2"></span><span class="d-block rounded-3 h-2 h-lg-3 bg-white" style="width: 124px;"></span></div>
+          <div class="d-flex align-items-center mb-8 mb-lg-10"><span class="d-block w-2 w-lg-3 h-2 h-lg-3 rounded-circle bg-white me-2"></span><span class="d-block rounded-3 h-2 h-lg-3 bg-white" style="width: 124px;"></span></div>
+          <p class="fw-bold mb-1">讓科技成為您的最佳夥伴</p>
+          <p class="fw-bold">立即體驗神奇功能並享限時優惠！</p>
         </div>
-        <div class="col"></div>
+        <div class="col">
+          <p><span class="material-symbols-outlined d-inline-block fs-10 text-white lh-1 mb-4">emergency</span></p>
+          <form id="contact-form">
+            <div class="form-floating mb-4">
+              <input type="email" class="form-control text-black fw-medium" id="email" placeholder="EMAIL">
+              <label for="email" class="text-black fw-bold">EMAIL</label>
+            </div>
+            <div class="form-floating">
+              <textarea class="form-control mb-4 text-black py-4 px-4 fw-medium" style="height: 120px; resize: none;" placeholder="COMMENTS" id="contactComments"></textarea>
+              <label for="contactComments" class="text-black fw-bold">COMMENTS</label>
+            </div>
+            <div class="text-lg-end">
+              <button type="button" class="btn btn-primary-300 col-12 col-lg-7"><i class="material-symbols-outlined align-bottom me-1">point_scan</i>送出</button>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
+  </section>
+
+  <section class="aiList-content">
+    <ul class="d-flex flex-wrap list-unstyled mb-0">
+      <li class="col-6 col-lg-3 position-relative border-end border-end-lg-0" style="background: no-repeat url('../assets/images/diane_vertical.png') 0 0 / cover;">
+        <div class="ai-card-content d-flex flex-column px-3 py-6 px-lg-9 pb-lg-11">
+          <span class="font-saira text-center fs-14 fs-lg-400 mb-4 mb-lg-5">1</span>
+          <p class="font-shrikhand fw-bold fs-4 fs-lg-5 mb-4 mb-lg-14 fst-italic text-center">Diane</p>
+          <p class="fw-bold mt-auto">知識型</p>
+          <div class="d-flex justify-content-between flex-wrap flex-lg-nowrap">
+            <p class="mb-0 w-100">學術領導/知識分享/智能問答</p>
+            <a href="javasript:;" class="stretched-link"><img src="../assets/images/line_end_arrow_notch-sm.png" class="img-fluid" alt=""></a>
+          </div>
+        </div>
+      </li>
+
+      <li class="col-6 col-lg-3 position-relative border-bottom border-bottom-lg-0" style="background: no-repeat url('../assets/images/felix_vertical.png') 0 0 / cover;">
+        <div class="ai-card-content d-flex flex-column px-3 py-6 px-lg-9 pb-lg-11">
+          <span class="font-saira text-center fs-14 fs-lg-400 mb-4 mb-lg-5">2</span>
+          <p class="font-shrikhand fw-bold fs-4 fs-lg-5 mb-4 mb-lg-14 fst-italic text-center">Felix</p>
+          <p class="fw-bold mt-auto">娛樂型</p>
+          <div class="d-flex justify-content-between flex-wrap flex-lg-nowrap">
+            <p class="mb-0 w-100">音樂播放/語音互動/遊戲陪伴</p>
+            <a href="javasript:;" class="stretched-link"><img src="../assets/images/line_end_arrow_notch-sm.png" class="img-fluid" alt=""></a>
+          </div>
+        </div>
+      </li>
+
+      <li class="col-6 col-lg-3 position-relative border-top border-top-lg-0" style="background: no-repeat url('../assets/images/karina_verticalgle.png') 0 0 / cover;">
+        <div class="ai-card-content d-flex flex-column px-3 py-6 px-lg-9 pb-lg-11">
+          <span class="font-saira text-center fs-14 fs-lg-400 mb-4 mb-lg-5">3</span>
+          <p class="font-shrikhand fw-bold fs-4 fs-lg-5 mb-4 mb-lg-14 fst-italic text-center">Karina</p>
+          <p class="fw-bold mt-auto">生活型</p>
+          <div class="d-flex justify-content-between flex-wrap flex-lg-nowrap">
+            <p class="mb-0 w-100">健康提醒/日程安排/智能家居</p>
+            <a href="javasript:;" class="stretched-link"><img src="../assets/images/line_end_arrow_notch-sm.png" class="img-fluid" alt=""></a>
+          </div>
+        </div>
+      </li>
+
+      <li class="col-6 col-lg-3 position-relative border-start border-start-lg-0" style="background: no-repeat url('../assets/images/vito_vertical.png') 0 0 / cover;">
+        <div class="ai-card-content d-flex flex-column px-3 py-6 px-lg-9 pb-lg-11">
+          <span class="font-saira text-center fs-14 fs-lg-400 mb-4 mb-lg-5">4</span>
+          <p class="font-shrikhand fw-bold fs-4 fs-lg-5 mb-4 mb-lg-14 fst-italic text-center">Vito</p>
+          <p class="fw-bold mt-auto">情感型</p>
+          <div class="d-flex justify-content-between flex-wrap flex-lg-nowrap">
+            <p class="mb-0 w-100">情感識別/心情分析/心靈支持</p>
+            <a href="javasript:;" class="stretched-link"><img src="../assets/images/line_end_arrow_notch-sm.png" class="img-fluid" alt=""></a>
+          </div>
+        </div>
+      </li>
+      
+    </ul>
   </section>
 
 
