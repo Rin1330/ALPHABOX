@@ -260,3 +260,15 @@ a {
     }
   }
 }
+
+.nav-pills {
+  .nav-link {
+    transition: all .3s ease 0s;
+    &.active,
+    &:hover,
+    &:focus {
+      background-color: white!important;
+      color: #000000!important;
+    }
+  }
+}
