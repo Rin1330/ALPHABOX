@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ALPHABOX+ 虛擬陪伴平台 - 產品</title>
-    <script type="module" crossorigin src="/ALPHABOX/assets/main-7c438b8c.js"></script>
-    <link rel="stylesheet" href="/ALPHABOX/assets/main-537d5d3e.css">
+    <script type="module" crossorigin src="/ALPHABOX/assets/main-58330044.js"></script>
+    <link rel="stylesheet" href="/ALPHABOX/assets/main-d02aab58.css">
   </head>
   <body>
     <header>
@@ -67,28 +67,82 @@
         <button class="nav-link py-1 px-4 px-md-10 px-xl-14 text-white font-shrikhand fst-italic fs-2 fs-lg-4 border border-white rounded-40 bg-transparent" id="pills-vito-tab" data-bs-toggle="pill" data-bs-target="#pills-vito" type="button" role="tab" aria-controls="pills-vito" aria-selected="false">Vito</button>
       </li>
     </ul>
-    <div class="tab-content bg-black text-white" id="pills-tabContent">
+    <div class="tab-content text-white aiProduct-pillContent" id="pills-ai-product">
       <div class="tab-pane fade show active" id="pills-diane" role="tabpanel" aria-labelledby="pills-diane-tab" tabindex="0">
-        <div class="row g-0">
-          <div class="col-md-6">
-            <img src="/ALPHABOX/assets/diane_square1-9f0571f9.png" class="img-fluid" alt="Diane">
+        <div class="row g-0 position-relative z-1 bg-black">
+          <div class="col-lg-6">
+            <div class="swiper ai-products">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="/ALPHABOX/assets/diane_square1-9f0571f9.png" class="img-fluid" loading="lazy" alt="Diane-1">
+                </div>
+                <div class="swiper-slide">
+                  <img src="/ALPHABOX/assets/diane_square2-7afb91b6.png" class="img-fluid" loading="lazy" alt="Diane-2">
+                </div>
+              </div>
+              <div class="swiper-buttonWrap">
+                <div class="swiper-button-prev"><span class="material-symbols-outlined">arrow_circle_left</span></div>
+                <div class="swiper-button-next"><span class="material-symbols-outlined">arrow_circle_right</span></div>
+              </div>
+            </div>
           </div>
-          <div class="col-md-6 d-flex flex-column justify-content-center pt-4 pb-6 px-3 p-md-9">
-            <div class="mb-4 mb-md-0">
-              <h2 class="font-shrikhand fst-italic fs-6 fs-md-8 mb-0 mb-md-6 lh-base">Diane</h2>
-              <div class="mb-2 mb-md-4">
+          <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pb-6 px-3 px-lg-9 pt-lg-0 pb-lg-0">
+            <div class="mb-4 mb-lg-0">
+              <p class="font-shrikhand fst-italic fs-6 fs-lg-8 mb-0 mb-lg-6">Diane</p>
+              <div class="mb-2 mb-lg-4">
                 <p class="fw-bold">知識型</p>
                 <p>學術領導/知識分享/智能問答</p>
               </div>
               <a href="javascript:;" class="d-block lh-0"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAAAYCAYAAADtRY/6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAC1SURBVHgB7dhBDQIxEIXhVxSsBKQgAQlIWAeAAnAATpCAhF0HSBimYRKWJlygc/u/ZA499Pbymo4EAAAAAMA/zGznsxaQrQbNZ6qhE5DNg3a2lzsth1QesMHnYW97AVk8YKN9mmg5pImAtU5t6Mriggnoa/Y5llKu9bASkGsW0MuXZ7T+VAcBvcRyt/0gbAT0tFjsWqxADgIyeLguEbQb6w6kiVarbTYKyOQh29JmAAAAAH72BCyDy+FfoVxfAAAAAElFTkSuQmCC" class="img-fluid" alt="arrow"></a>
             </div>
             <div class="text-center">
-              <img src="data:image/png;base64,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" class="img-fluid arrowIcon rotateAnimate" alt="">
+              <img src="data:image/png;base64,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" class="img-fluid z-5 arrowIcon" alt="">
             </div>
           </div>
         </div>
+        <div class="container">
+          <div class="row text-black pt-60 pt-lg-14 justify-content-between">
+            <div class="col-lg-4 mb-8 mb-lg-0">
+              <p class="mb-6 mb-lg-8 d-flex align-items-center"><span class="material-symbols-outlined d-inline-block me-3 fs-6">emergency</span>學術領導/知識分享/智能問答</p>
+              <p class="fw-medium">歡迎來到ALPHABOX+的全新世界！在這裡，我們很榮幸地向您介紹我們的最新力作 - 3D立體投影機器人 Felix！</p>
+            </div>
+            <div class="col d-none d-lg-block">
+              <p class="text-end">ALPHABOX+</p>
+            </div>
+          </div>
+          <ul class="row pt-8 pb-14 py-lg-17 mb-0 list-unstyled row-cols-1 row-cols-lg-3 text-black g-6 product-features">
+            <li class="col position-relative min-height-204">
+              <a href="javascript:;" class="fw-bold mb-4 mb-lg-5 text-black stretched-link">先進的3D投影技術</a>
+              <p>Diane 搭載了最新的 3D 投影技術，能夠將虛擬影像清晰地呈現在您的現實空間中，讓您感受身臨其境的體驗！</p>
+            </li>
+            <li class="col position-relative min-height-204">
+              <a href="javascript:;" class="fw-bold mb-4 mb-lg-5 text-black stretched-link">人性化的互動設計</a>
+              <p>Diane 具有高度智能的語音辨識和回應功能，您可以像跟朋友聊天一樣，與 Diane 進行自然、流暢的對話。</p>
+            </li>
+            <li class="col position-relative min-height-204">
+              <a href="javascript:;" class="fw-bold mb-4 mb-lg-5 text-black stretched-link">豐富的應用場景</a>
+              <p>無論是家庭娛樂、教育培訓還是商業展示，Diane 都能夠輕鬆滿足您的需求，為您提供更多元的互動體驗。</p>
+            </li>
+            <li class="col position-relative min-height-204">
+              <a href="javascript:;" class="fw-bold mb-4 mb-lg-5 text-black stretched-link">高度自主性</a>
+              <p>Diane 具有強大的自主學習能力，能夠不斷地學習並優化自己，為您創造更加便捷、貼心的生活方式。</p>
+            </li>
+            <li class="col position-relative min-height-204">
+              <a href="javascript:;" class="fw-bold mb-4 mb-lg-5 text-black stretched-link">簡單易用的操作界面</a>
+              <p>Diane 擁有直觀的操作界面，讓您可以輕鬆地掌握並運用它的各種功能。</p>
+            </li>
+          </ul>
+          <div class="row pt-60 pb-14 py-lg-160">
+            <h2 class="fw-bold lh-base fs-6 fs-lg-7 text-spacing-40 text-spacing-lg-48 d-inline-block mb-4">使用分享</h2>
+          </div>
+        </div>
       </div>
-      <div class="tab-pane fade" id="pills-felix" role="tabpanel" aria-labelledby="pills-felix-tab" tabindex="0">..Felix</div>
+
+
+
+      <div class="tab-pane fade" id="pills-felix" role="tabpanel" aria-labelledby="pills-felix-tab" tabindex="0">
+        Felix
+      </div>
       <div class="tab-pane fade" id="pills-karina" role="tabpanel" aria-labelledby="pills-karina-tab" tabindex="0">karina</div>
       <div class="tab-pane fade" id="pills-vito" role="tabpanel" aria-labelledby="pills-vito-tab" tabindex="0">Vito.</div>
     </div>
