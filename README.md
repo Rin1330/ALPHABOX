@@ -46,3 +46,5 @@ git push -u origin main // 僅限第一次輸入，往後只需要輸入 git pus
 ```
 
 3. 初始化完畢後，執行 `npm run deploy` 指令進行自動化部署
+
+4. https://www.figma.com/file/zth5XUKMHePyTIxwxYbuBi/2023-%E5%88%87%E7%89%88%E5%A4%8F%E5%AD%A3%E7%8F%AD-W8---AI-%E8%99%9B%E6%93%AC%E9%99%AA%E4%BC%B4?type=design&node-id=287-5248&mode=design&t=QJ97OdgRVZDpoJOv-0

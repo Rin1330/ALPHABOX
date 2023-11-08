@@ -273,8 +273,68 @@ a {
   }
 }
 
-.tab-content {
+.aiProduct-pillContent {
   .arrowIcon {
     width: 109px;
+    @include media-breakpoint-up(lg) {
+      width: 128px;
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    @include media-breakpoint-up(xl) {
+      width: 132px;
+      bottom: 40px;
+    }
+    @include media-breakpoint-up(xxl) {
+      width: 196px;
+      bottom: 60px;
+    }
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 48px;
+    height: 48px;
+    @include media-breakpoint-up(md) {
+      width: 80px;
+      height: 80px;
+    }
+    transition: all .3s ease 0s;
+    & > span {
+      font-size: 36px;
+      transition: all .3s ease 0s;
+      color: rgba($color: #ffffff, $alpha: 1.0);
+      @include media-breakpoint-up(md) {
+        font-size: 60px;
+      }
+    }
+    &:after {
+      content: none;
+    }
+  }
+}
+
+.min-height-204 {
+  min-height: auto;
+  @include media-breakpoint-up(lg) {
+    min-height: 204px;
+  }
+}
+
+.product-features {
+  .stretched-link {
+    display: block;
+    border-bottom: 2px solid #000000;
+    @include media-breakpoint-up(lg) {
+      border-bottom: 2px solid transparent;
+    }
+    transition: all .3s ease 0s;
+    &:hover {
+      border-bottom: 2px solid transparent;
+      @include media-breakpoint-up(lg) {
+        border-bottom: 2px solid #000000;
+      }
+    }
   }
 }
