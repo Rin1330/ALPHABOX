@@ -243,7 +243,7 @@ a {
 
 .aiList-content {
   .card {
-    background-color: rgba($color: #000000, $alpha: .2);
+    background-color: rgba($color: #000000, $alpha: .5);
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: cover;
@@ -253,7 +253,7 @@ a {
     }
     transition: all .3s ease 0s;
     &:hover {
-      background-color: rgba($color: #000000, $alpha: .5);
+      background-color: rgba($color: #000000, $alpha: .15);
       @include media-breakpoint-up(lg) {
         background-color: rgba($color: #000000, $alpha: .2);
       }
@@ -271,6 +271,20 @@ a {
       color: #000000!important;
     }
   }
+}
+
+.scaleAnimate{
+  animation-name: scaleM2L;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; 
+  animation-fill-mode: both; 
+}
+
+@keyframes scaleM2L {
+  0% { transform: translateX(-50%) scale(1.05);}
+  50% { transform: translateX(-50%) scale(.85);}
+  100% { transform: translateX(-50%) scale(1);}
 }
 
 .aiProduct-pillContent {
@@ -291,6 +305,13 @@ a {
       width: 196px;
       bottom: 60px;
     }
+    &:hover {
+      animation-name: scaleM2L;
+      animation-duration: 3s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite; 
+      animation-fill-mode: both;
+    }
   }
   .swiper-button-prev,
   .swiper-button-next {
@@ -308,6 +329,9 @@ a {
       @include media-breakpoint-up(md) {
         font-size: 60px;
       }
+    }
+    &:hover > span {
+      color: rgba($color: $primary-200, $alpha: 1.0);
     }
     &:after {
       content: none;
@@ -338,3 +362,4 @@ a {
     }
   }
 }
+
